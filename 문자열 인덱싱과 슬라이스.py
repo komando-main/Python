@@ -44,3 +44,6 @@ print(a)
 num=38
 a=f'나는 올해 만으로 {num} 이고 다음 연도에는 {num+1} 이다'
 print(a)
+a={'name':'고민재', 'age':39}
+b=f'My name {a["name"]} My age {a["age"]}'
+print(b)
