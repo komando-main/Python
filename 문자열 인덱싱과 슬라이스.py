@@ -47,3 +47,13 @@ print(a)
 a={'name':'고민재', 'age':39}
 b=f'My name {a["name"]} My age {a["age"]}'
 print(b)
+a=f'"{"hi":<10}"'
+print(a)
+a=f'"{"hi":>10}"'
+print(a)
+a=f'"{"hi":=^10}"'
+print(a)
+a=f'{"hi":!<10}'
+print(a)
+a=f'{"hi":!>10}'
+print(a)
