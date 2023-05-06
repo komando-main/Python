@@ -57,3 +57,8 @@ a=f'{"hi":!<10}'
 print(a)
 a=f'{"hi":!>10}'
 print(a)
+y=3.14159
+a=f'{y:0.2f}'
+print(a)
+a=f'{{}}'
+print(a)
