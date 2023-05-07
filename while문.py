@@ -3,7 +3,7 @@ while treeHit < 10:
     treeHit+=1
     print(f'나무를 {treeHit}번 찍었습니다')
     if treeHit == 10 :
-        print('나무 넘어 값니다')
+        print('나무 넘어 갑니다')
 
 prompt = '''
 1.Add
