@@ -27,3 +27,10 @@ while coffee != 0:
         coffee-=1
         print(f'\n커피가 나옵니다.\n거스름 돈 {money-300}원\n')
         money=0
+
+a=0
+while a < 10:
+    a+=1
+    if a % 2 == 0:
+        continue
+    print(a)
