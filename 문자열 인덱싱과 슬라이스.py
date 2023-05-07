@@ -62,3 +62,5 @@ a=f'{y:0.2f}'
 print(a)
 a=f'{{}}'
 print(a)
+print('2001%c03%c31%cRainy' %('-','-','-'))
+print('%d' % 5)  
