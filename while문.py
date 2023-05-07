@@ -34,3 +34,6 @@ while a < 10:
     if a % 2 == 0:
         continue
     print(a)
+
+while True:
+    print('Ctrl+C를 눌러야 while문을 빠저나갈 수 있습니다')
