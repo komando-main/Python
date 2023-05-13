@@ -1,0 +1,8 @@
+.asd{
+    color: black;
+    text-decoration: none;
+}
+.asd:hover{
+    text-decoration: none;
+    color: green;
+}

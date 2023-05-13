@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+        <link rel="stylesheet" href="{{ url_for('CSS1', path='/st.css') }}"/>
+    </head>
+    <body>
+        <table>
+            {% for item in list %}
+            <tr>
+                <td class="asd" onclick="showPost()">{{item}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <ul>
+            {% for item in list %}
+            <li class="qwe" onclick="showPost()">{{item}}</li>
+            {% endfor %}
+        </ul>
+        <script src="http://localhost:8000/sss1/script.js"></script>
+    </body>
+</html>
