@@ -3,6 +3,8 @@ from fastapi.responses import HTMLResponse
 # from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
+
+
 app = FastAPI()
 
 # app.mount("/kmj", StaticFiles(directory="dir_html"), name="my_item") # 이건 태스트 용 인거 같다
@@ -17,6 +19,9 @@ async def read_item(request: Request):
 async def create_item(username: str = Form(...), password: str = Form(...)): # Form(...) 함수는 HTML 양식의 name 속성을 사용하여 데이터를 추출
     print(f'{username}_{password}')
     return {"username": username, "password": password} # json 타입으로 보낼 수 있다
+
+
+
 
 # uvicorn main:app 명령은 다음을 의미한다:
 # main: 파일 main.py (파이썬 모듈) ex) 파일 이름이 kkkk면 uvicorn kkkk:(안의 바인드 이름)
