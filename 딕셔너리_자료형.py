@@ -4,6 +4,7 @@ a={'name':'민', 'phone':'0123456789', 'day':'1212'}
 b={1:'qwe', 2:'qwe', 3:'zxc'}
 c={'qwe':1, 'asd':2, 'zxc':3}
 d={'qwe':[1,2,3], 'asd':[4,5,6]}
+print(a[next(iter(a))])
 print(a['name'])
 print(b[1])
 print(d['qwe'][0])
