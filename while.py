@@ -43,3 +43,12 @@ while i < 10:
         j+=1
     i+=1
 
+i = 20
+j = 35
+a = 0
+while i <= j:
+    if i % 3 == 0:
+        print(f"{i}")
+        a += i
+        print(f"3의 배수 더한 값 {a}")
+    i+=1
