@@ -6,11 +6,11 @@
     </head>
     <body>
         <table>
-            {% for item in list %}
             <tr>
+                {% for item in list %}
                 <td class="asd" onclick="showPost()">{{item}}</td>
+                {% endfor %}
             </tr>
-            {% endfor %}
         </table>
         <ul>
             {% for item in list %}
