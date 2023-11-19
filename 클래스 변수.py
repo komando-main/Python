@@ -50,7 +50,9 @@ class Add1(Add):
     def phone1(self):
         return f"휴대폰 번호는 {self.phone} 입니다"
 
-a=Add1('min', 39, '123456789')
+a=Add1('min-jae', 39, '123456789')
 
 print(a.name1())
+print(a.age1())
+print(a.phone1())
 print(a.all())
